@@ -1,6 +1,6 @@
 from PIL import Image, ImageEnhance
 
-image = Image.open('/home/usr/Downloads/____.jpg')                            #image's path
+image = Image.open('/home/usr/Downloads/____.jpg')                          #image's path
 
 new_image = image.resize((128,112))                                         #resize to gameboy's dimensions 128x112
 
